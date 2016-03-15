@@ -69,18 +69,19 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Users\allen\Desktop\Seas of Gold\Seas-of-Gold\Seas of Gold\IRRLICHT\irrlicht-1.8.3\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\allen\Desktop\Seas of Gold\Seas-of-Gold\Seas of Gold\IRRLICHT\irrlicht-1.8.3\lib\Win32-visualstudio;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\IRRLICHT\irrlicht-1.8.3\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\IRRLICHT\irrlicht-1.8.3\lib\Win32-visualstudio;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>C:\Users\allen\Desktop\Seas of Gold\Seas-of-Gold\Seas of Gold\IRRLICHT\irrlicht-1.8.3\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\allen\Desktop\Seas of Gold\Seas-of-Gold\Seas of Gold\IRRLICHT\irrlicht-1.8.3\lib\Win32-visualstudio;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\IRRLICHT\irrlicht-1.8.3\include;%(AdditionalIncludeDirectories)</IncludePath>
+    <LibraryPath>..\IRRLICHT\irrlicht-1.8.3\lib\Win32-visualstudio;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\IRRLICHT\irrlicht-1.8.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalDependencies>irrlicht.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -100,6 +101,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\IRRLICHT\irrlicht-1.8.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
