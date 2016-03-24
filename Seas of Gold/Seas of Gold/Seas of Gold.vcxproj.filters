@@ -21,7 +21,14 @@
     <ClCompile Include="WorldObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="Mission.cpp">
+=======
+    <ClCompile Include="Unit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+>>>>>>> refs/remotes/origin/pr/6
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,10 +36,17 @@
     <ClInclude Include="WorldObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="Common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Mission.h">
+=======
+    <ClInclude Include="Unit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+>>>>>>> refs/remotes/origin/pr/6
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
