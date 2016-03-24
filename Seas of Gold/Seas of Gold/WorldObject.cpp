@@ -11,3 +11,14 @@ WorldObject::WorldObject(v3d* l, v3d* r, v3d* s, irrString n, int m, bool c, boo
 	m_bVisible = v;
 	generateGUID(GUIDList, len);
 }
+
+WorldObject::WorldObject(){
+	m_v3Loc = v3d(0, 0, 0);
+	m_v3Rot = v3d(0, 0, 0);
+	m_v3Scale = v3d(0, 0, 0);
+	m_isName = irrString("NONAME");
+	m_iModelID = 0;
+	m_bClipping = true;
+	m_bVisible = false;
+	generateGUID(new long*[], 0);
+}
