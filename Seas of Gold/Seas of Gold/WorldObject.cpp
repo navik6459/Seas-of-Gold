@@ -1,11 +1,7 @@
 #include "WorldObject.h"
 
-<<<<<<< HEAD
-WorldObject::WorldObject(v3d* l, v3d* r, v3d* s, irrString n, int m, bool c, bool v, long* GUIDList[], int len){
-=======
 WorldObject::WorldObject(v3d* l, v3d* r, v3d* s, irrString n, int m, bool c, bool v, long* GUIDList[], int len)
 {
->>>>>>> refs/remotes/origin/pr/6
 	m_v3Loc = v3d(*l);
 	m_v3Rot = v3d(*r);
 	m_v3Scale = v3d(*s);

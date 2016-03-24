@@ -60,8 +60,5 @@ public:
 	inline void setOwner(long ownGUID){ m_lOwner = ownGUID; };
 
 	WorldObject(v3d* l, v3d* r, v3d* s, irrString n, int m, bool c, bool v, long* GUIDList[], int len);
-<<<<<<< HEAD
-=======
 	WorldObject();
->>>>>>> refs/remotes/origin/pr/6
 };
