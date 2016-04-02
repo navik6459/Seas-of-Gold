@@ -143,6 +143,7 @@
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Mission.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="Unit.cpp" />
     <ClCompile Include="WorldObject.cpp" />
   </ItemGroup>
@@ -153,6 +154,7 @@
     <ClInclude Include="Inventory.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="Mission.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="Unit.h" />
     <ClInclude Include="WorldObject.h" />
   </ItemGroup>
