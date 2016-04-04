@@ -156,6 +156,7 @@
     <ClInclude Include="Item.h" />
     <ClInclude Include="Mission.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="UI.h" />
     <ClInclude Include="Unit.h" />
     <ClInclude Include="Vendor.h" />
     <ClInclude Include="WorldObject.h" />
